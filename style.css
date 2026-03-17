@@ -1,4 +1,44 @@
+/* iphone 11 pro Section */
 
+.iphone-pro-section {
+  background-image: url("../Images/home/iphone11-pro-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  height: 580px;
+  padding: 65px 20px;
+}
+.iphone-pro-wrapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.iphone-pro-wrapper div {
+  margin-bottom: 15px;
+}
+.iphone-pro-wrapper .iphone-title {
+  font-weight: 600;
+  font-size: 56px;
+}
+.iphone-pro-wrapper .iphone-brief-description {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.iphone-pro-wrapper .price-discription {
+  font-size: 20px;
+  color: #6e6e73;
+}
+.iphone-pro-wrapper ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.iphone-pro-wrapper ul li a {
+  color: #0071e3;
+}
 
 
 
