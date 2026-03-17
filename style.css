@@ -1,6 +1,147 @@
 
+first-section-wrapper{
+  background: #fafafa;
+  text-align: center;
+  padding: 25px 0;
+}
+.links-wrapper ul{
+  list-style: none;
+}
+.model{
+  font-size: .85em;
+}
+.Product-title{
+  font-weight: 700;
+  font-size: 56px;
+}
+.brief-description{
+  font-size: 56px;
+}
+.links-wrapper{
+  padding: 15px 0;
+}
 
-/* Fourth-section-here */
+.links-wrapper ul li{
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.links-wrapper ul li a:hover{
+  color: #000;
+}
+.links-wrapper ul li a:after{
+  font-family: "FontAwesome";
+  content: "\f105";
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+
+/* iphone 11 pro Section */
+
+.iphone-pro-section {
+  background-image: url("../Images/home/iphone11-pro-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  height: 580px;
+  padding: 65px 20px;
+}
+.iphone-pro-wrapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.iphone-pro-wrapper div {
+  margin-bottom: 15px;
+}
+.iphone-pro-wrapper .iphone-title {
+  font-weight: 600;
+  font-size: 56px;
+}
+.iphone-pro-wrapper .iphone-brief-description {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.iphone-pro-wrapper .price-discription {
+  font-size: 20px;
+  color: #6e6e73;
+}
+.iphone-pro-wrapper ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.iphone-pro-wrapper ul li a {
+  color: #0071e3;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	max-width: 100%;
+}
+
+/* Header start here */
+header{
+	background-color: black;
+	padding: 10px;
+}
+
+.header-wrapper .links-wrapper ul li a{
+	color : white;
+	text-decoration: none;
+	font-weight: 200;
+	font-size: 0.75em;
+}
+
+.internal-container{
+	width: 80%;
+	padding: 0% 10%;
+	margin: auto;
+}
+
+.header-wrapper ul {
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+
+}
+
+header ul li img {
+	width: 18px;
+}
+
+.header-wrapper .links-wrapper ul li:hover{
+	opacity: 1;
+}
+
+.logo-link, .search-link, .cart-link {
+	width: 18px;
+	display: bloack;
+}
+
+
+.header-wrapper .links-wrapper.logo-link {
+	padding-right: 12px 0 10px;
+}
+
+.header-wrapper .links-wrapper ul li .search-link{
+	padding: 14px 0 8px;
+}
+
+.header-wrapper .links-wrapper ul li .cart-link {
+	padding: 12px 0 10px;
+}
+/* Header end here */
+
 
 .fourth-main-section-wrapper {
     display: flex;
@@ -8,21 +149,7 @@
     justify-content: space-between;
     background: #fff;
 }
-.left-side-wrapper{
-    height: 580px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    width: 48.5%;
-    margin: 1% 0.5% 0% 1%;
-    padding: 54px;
-}
 
-
-.fourth-main-section-wrapper .left-side-wrapper {
-    background-image: url("../images/home/watch-series-5.jpg");
-}
 
 .right-side-wrapper{
     height: 580px;
@@ -51,6 +178,7 @@
     margin: 0 auto;
     padding: 10px;
 }
+
 .fifth-highlight-wrapper {
 	display: flex;
     /*-webkit-box-pack: justify;*/
@@ -78,3 +206,4 @@
     content: "\f144";
     padding-left: 15px;
 }
+
