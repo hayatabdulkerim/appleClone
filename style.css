@@ -51,3 +51,36 @@
     margin: 0 auto;
     padding: 10px;
 }
+
+/* *Fifth Highlight Section */ */
+.fifth-highlight-wrapper {
+	display: flex;
+    /*-webkit-box-pack: justify;*/
+    justify-content: space-between;
+    background: #fff;
+}
+
+.fifth-highlight-wrapper .right-side-wrapper {
+	background-image:  url("../images/images/home/air-pods.jpg"); 
+	color: #fff; 
+	background-size: initial;
+	background-color: #000;
+	background-position: bottom;
+}
+.logo-wrapper {
+	font-size: 40px;
+	font-weight: bold;
+}
+.tvshow-logo-wrapper {
+	padding: 180px 0 200px;
+}
+.watch-more-wrapper a {
+	text-decoration: none;
+	font-size: 0.85em;
+}
+.watch-more-wrapper a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 15px;
+}
