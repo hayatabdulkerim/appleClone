@@ -1,3 +1,4 @@
+
 * {
 	margin: 0;
 	padding: 0;
@@ -58,7 +59,16 @@ header ul li img {
 }
 /* Header end here */
 
-
+.iPhone11-Wrapper {
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  }
+  
 .fourth-main-section-wrapper {
     display: flex;
     -webkit-box-pack: justify;
@@ -93,4 +103,5 @@ header ul li img {
     max-width: 430px;
     margin: 0 auto;
     padding: 10px;
-}
+
+
