@@ -1,3 +1,64 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	max-width: 100%;
+}
+
+/* Header start here */
+header{
+	background-color: black;
+	padding: 10px;
+}
+
+.header-wrapper .links-wrapper ul li a{
+	color : white;
+	text-decoration: none;
+	font-weight: 200;
+	font-size: 0.75em;
+}
+
+.internal-container{
+	width: 80%;
+	padding: 0% 10%;
+	margin: auto;
+}
+
+.header-wrapper ul {
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+}
+
+header ul li img {
+	width: 18px;
+}
+
+.header-wrapper .links-wrapper ul li:hover{
+	opacity: 1;
+}
+
+.logo-link, .search-link, .cart-link {
+	width: 18px;
+	display: bloack;
+}
+
+
+.header-wrapper .links-wrapper.logo-link {
+	padding-right: 12px 0 10px;
+}
+
+.header-wrapper .links-wrapper ul li .search-link{
+	padding: 14px 0 8px;
+}
+
+.header-wrapper .links-wrapper ul li .cart-link {
+	padding: 12px 0 10px;
+}
+/* Header end here */
+
 .iPhone11-Wrapper {
   background-image: url(../images/home/iphone11-bg.jpg);
   height: 580px;
@@ -6,4 +67,41 @@
   background-size: cover;
   text-align: center;
   padding: 65px 20px;
+  }
+  
+.fourth-main-section-wrapper {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
 }
+
+
+.right-side-wrapper{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;    
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%;
+    padding: 54px;
+}
+
+
+.description-wrapper {
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.fourth-main-section-wrapper .right-side-wrapper {
+    background-image: url("../images/home/apple-card.jpg");
+}
+
+.description-wrapper{
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+
+
